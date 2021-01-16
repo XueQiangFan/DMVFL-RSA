@@ -10,7 +10,7 @@ Step 1. blast+, nr
 
 Step 2. PSIPRED VFORMAT (PSIPRED V3.2)
 
-Step 3. ProtChain databases 
+Step 3. ProtChain databases (It can be downloaded from xxx)
 
 Step 4. python3.7, pytorch, numpy
 
@@ -30,8 +30,7 @@ Step 3  xxx.rsa is the result file
 ## run
 >> python main.py -p fasta path -o result path
 
-More details about SPRSA can be found from the following paper:
-xxx
+More details about SPRSA can be found from the following paper:xxx
 
 Xueqiang Fan
 2021.01
