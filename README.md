@@ -27,8 +27,7 @@ Step 2. generate a PRSA for your protein sequence from PRSA-Threader
 
 Step 3  xxx.rsa is the result file
 
-## run
->> python main.py -p fasta path -o result path
+## run: python main.py -p fasta path -o result path
 
 More details about SPRSA can be found from the following paper:xxx
 
