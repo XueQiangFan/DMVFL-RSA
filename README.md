@@ -17,7 +17,7 @@ Step 4. python3.7, pytorch, numpy
 Configure the following tools or databases in SPRSA.config
 Step 0. HHblits, uniclust30_2018_08 
 
-# 2.How to run SPRSA? 
+# 2.How to run DMVFL-RSA? 
 Brief introduction for protein solvent accessibility prediction by DMVFL-RSA
 Step 0. generate an MSA (in a3m format) for your protein sequence from HHblits.
 
