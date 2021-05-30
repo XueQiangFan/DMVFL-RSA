@@ -23,7 +23,7 @@ Step 0. generate an MSA (in a3m format) for your protein sequence from HHblits.
 
 Step 1. generate a PSSM and a PSS for your protein sequence from blast+ and PSIPRED.
 
-Step 2. generate a RPRSA for your protein sequence from PRSA-Threader
+Step 2. generate a RPRSA for your protein sequence from RPRSA-Threader
 
 Step 3  xxx.rsa is the result file
 
