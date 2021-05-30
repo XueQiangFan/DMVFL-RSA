@@ -29,7 +29,7 @@ Step 3  xxx.rsa is the result file
 
 ## run: python main.py -p protein name -S protein sequence -o result path
 
-More details about DMVFL-RSA can be found from the following paper:Improved Protein Relative Solvent Accessibility Prediction using Deep Multi-View Feature Learning Framework
+More details about DMVFL-RSA can be found from the following paper: Improved Protein Relative Solvent Accessibility Prediction using Deep Multi-View Feature Learning Framework
 
 Xueqiang Fan
 2021.01
