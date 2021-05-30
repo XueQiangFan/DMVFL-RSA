@@ -21,11 +21,13 @@ Step 0. HHblits, uniclust30_2018_08
 Brief introduction for protein solvent accessibility prediction by DMVFL-RSA
 Step 0. generate an MSA (in a3m format) for your protein sequence from HHblits.
 
-Step 1. generate a PSSM and a PSS for your protein sequence from blast+ and PSIPRED.
+Step 1. generate one PSFM profile for your the MSA
 
-Step 2. generate a RPRSA for your protein sequence from RPRSA-Threader
+Step 2. generate one PSSM profile and a PSS profile for your protein sequence from blast+ and PSIPRED.
 
-Step 3  xxx.rsa is the result file
+Step 3. generate one RPRSA profile for your protein sequence from RPRSA-Threader
+
+Step 4.  protein name.rsa is the result file
 
 ## run: python main.py -p protein name -S protein sequence -o result path
 
