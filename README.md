@@ -10,7 +10,7 @@ Step 1. blast+, nr  (https://ftp.ncbi.nih.gov/blast/db/)
 
 Step 2. PSIPRED VFORMAT (PSIPRED V3.2)
 
-Step 3. ProtChain databases (It can be downloaded from xxx) 
+Step 3. ProtChain databases (It can be downloaded from xstrongf.163.com) 
 
 Step 4. python3.7, pytorch, numpy
 
