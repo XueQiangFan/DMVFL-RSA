@@ -1,5 +1,5 @@
 # DMVFL-RSA
-DMVFL-RSA Predict Protein Solvent Accessibility
+Improved Protein Relative Solvent Accessibility Prediction using Deep Multi-View Feature Learning Framework
 
 # 1.Prerequisite:
 Configure the following tools or databases in Config.properties
