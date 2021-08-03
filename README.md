@@ -17,7 +17,15 @@ Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View
 
 *Install and configure the softwares of Python3, Java, Pytorch, HHblits, uniclust30_2018_08, blast+, nr, ProtChain database, and PSIPRED in your Linux system. Please make sure that python3 includes the modules of 'os', 'math', 'numpy', 'configparser', 'numba', 'random', 'subprocess', 'sys', and 'shutil'. If any one modules does not exist, please using 'pip install XXXX' command install the python revelant module. Here, "XXXX" is one module name.
 
+*Download this repository at https://github.com/XueQiangFan/DMVFL-RSA. Then, uncompress it and run the following command lines on Linux System.
+
+$ tar zxvf DMVFL-RSA.tar.gz
+$ chmod -R 777 ./DMVFL-RSA
+$ cd ./DMVFL-RSA
+Here, you will see two configuration files
+
 *Configure the following tools or databases in Config.properties
+The file of "Config.properties" should be set as follows:
 
 - HHblits, uniclust30_2018_08  (http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/)
 
@@ -28,7 +36,7 @@ Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View
 - ProtChain databases (It can be downloaded from xstrongf.163.com) 
 
 *Configure the following tools or databases in SPRSA.config
-
+The file of "Config.properties" should be set as follows:
 - HHblits, uniclust30_2018_08  (http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/)
 
 # Run DMVFL-RSA? 
