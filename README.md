@@ -1,23 +1,40 @@
 # DMVFL-RSA
-Improved Protein Relative Solvent Accessibility Prediction using Deep Multi-View Feature Learning Framework
+Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View Feature Learning Framework
 
-# 1.Prerequisite:
-Configure the following tools or databases in Config.properties
+# Pre-requisite:
 
-Step 0. HHblits, uniclust30_2018_08  (http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/)
+- Linux system
 
-Step 1. blast+, nr  (https://ftp.ncbi.nih.gov/blast/db/)
+- python3.7, pytorch, numpy
 
-Step 2. PSIPRED VFORMAT (PSIPRED V3.2)
+- HHblits, uniclust30_2018_08  (http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/)
 
-Step 3. ProtChain databases (It can be downloaded from xstrongf.163.com) 
+- blast+, nr  (https://ftp.ncbi.nih.gov/blast/db/)
 
-Step 4. python3.7, pytorch, numpy
+- PSIPRED VFORMAT (PSIPRED V3.2)
 
-Configure the following tools or databases in SPRSA.config
-Step 0. HHblits, uniclust30_2018_08 
+# Installation:
 
-# 2.How to run DMVFL-RSA? 
+*Install and configure the softwares of Python3, Java, Pytorch, HHblits, uniclust30_2018_08, blast+, nr, ProtChain database, and PSIPRED in your Linux system. Please make sure that python3 includes the modules of 'os', 'math', 'numpy', 'configparser', 'numba', 'random', 'subprocess', 'sys', and 'shutil'. If any one modules does not exist, please using 'pip install XXXX' command install the python revelant module. Here, "XXXX" is one module name.
+
+*Configure the following tools or databases in Config.properties
+
+- HHblits, uniclust30_2018_08  (http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/)
+
+- blast+, nr  (https://ftp.ncbi.nih.gov/blast/db/)
+
+- PSIPRED VFORMAT (PSIPRED V3.2)
+
+- ProtChain databases (It can be downloaded from xstrongf.163.com) 
+
+*Configure the following tools or databases in SPRSA.config
+
+- HHblits, uniclust30_2018_08  (http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/)
+
+# Run DMVFL-RSA? 
+
+## run: python main.py -p protein name -S protein sequence -o result path
+
 Brief introduction for protein solvent accessibility prediction by DMVFL-RSA
 
 Step 0. generate an MSA (in a3m format) for your protein sequence from HHblits.
@@ -28,11 +45,17 @@ Step 2. generate one PSSM profile and a PSS profile for your protein sequence fr
 
 Step 3. generate one RPRSA profile for your protein sequence from RPRSA-Threader
 
-Step 4.  protein name.rsa is the result file
+Step 4.  protein name +.rsa is the result file
 
-## run: python main.py -p protein name -S protein sequence -o result path
+# The protein solvent accessibility result
 
-More details about DMVFL-RSA can be found from the following paper: Improved Protein Relative Solvent Accessibility Prediction using Deep Multi-View Feature Learning Framework
+*The protein solvent accessibility result of each rsidue should be found in the outputted file, i.e., " protein name +.rsa". In each result file, where "NO" is the position of each residue in your protein, where "AA" is the name of each residue in your protein, where "RSA" is the predicted relative accessible surface area of each residue in your protein, and where "ASA" is the predicted accessible surface area of each residue in your protein.
 
-Xueqiang Fan
-2021.01
+# Update History:
+
+First release 2021-08-03
+
+# References
+
+[1] Xue-Qiang Fan, Jun Hu*, Ning-Xin Jia, Dong-Jun Yu*, and Gui-Jun Zhang*. Improved Protein Relative Solvent Accessibility Prediction using Deep Multi-View Feature Learning Framework. Analytical Biochemistry. sumitted.
+
