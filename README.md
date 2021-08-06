@@ -33,7 +33,7 @@ Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View
 
 - PSIPRED VFORMAT (PSIPRED V3.2)
 
-- ProtChain databases (It can be downloaded from xstrongf.163.com) 
+- ProtChain databases   
 
 *Configure the following tools or databases in SPRSA.config  
   The file of "Config.properties" should be set as follows:
