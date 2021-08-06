@@ -11,7 +11,7 @@ Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View
 
 - blast+, nr  (https://ftp.ncbi.nih.gov/blast/db/)
 
-- PSIPRED VFORMAT (PSIPRED V3.2)
+- PSIPRED VFORMAT (PSIPRED V3.2) (http://bioinfadmin.cs.ucl.ac.uk/downloads/psipred/)
 
 # Installation:
 
