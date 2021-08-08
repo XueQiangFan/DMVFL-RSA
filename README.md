@@ -9,7 +9,7 @@ Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View
     - uniclust30_2018_08 (http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/)
     - blast-2.2.26 (https://blast.ncbi.nlm.nih.gov/Blast.cgi)
     - nr (https://ftp.ncbi.nih.gov/blast/db/)  
-    - PSIPRED (PSIPRED V3.2) (http://bioinfadmin.cs.ucl.ac.uk/downloads/psipred/)
+    - PSIPRED (version 3.2) (http://bioinfadmin.cs.ucl.ac.uk/downloads/psipred/)
 
 ## Installation:
 
