@@ -52,7 +52,6 @@ Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View
   # Generate RPRSA config 
   PROT_CHAIN_LIB_FOLDER_PATH=/data0/junh/stu/xueqiangf/SPRSA/Util/ProtChain
  ~~~
- 
 *Configure the following tools or databases in DMVFL-RSA.config  
   The file of "Config.properties" should be set as follows:
 - HHblits 
