@@ -36,8 +36,8 @@ Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View
  - blast+ 
  - nr
  - PSIPRED
- - ProtChain databases
- For example:
+ - ProtChain databases  
+  For example:
  ~~~
   # Generate PSSM PSS config path
   BLASTPGP_EXE_PATH=/data0/junh/software/blast-2.2.26/blastpgp
@@ -53,7 +53,7 @@ Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View
 *Configure the following tools or databases in DMVFL-RSA.config  
   The file of "Config.properties" should be set as follows:
 - HHblits 
-- uniclust30_2018_08
+- uniclust30_2018_08   
  For example:
  ~~~
    [HHBLITS]
