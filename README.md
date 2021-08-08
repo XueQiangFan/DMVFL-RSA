@@ -65,10 +65,10 @@ Here, you will see two configuration files.
 ~~~
 
 ## Run DMVFL-RSA 
-### run: python main.py -P protein name -S protein sequence -o result path
+### run: python main.py -p protein name -s protein sequence -o result path
 ~~~
     For example:
-    python main.py -P 1bfmB -S MELPIAPIGRIIKDAGAERVSDDARITLAKILEEMGRDIASEAIKLARHAGRKTIKAEDIELAVRRFKK -O ./
+    python main.py -p 1bfmB -s MELPIAPIGRIIKDAGAERVSDDARITLAKILEEMGRDIASEAIKLARHAGRKTIKAEDIELAVRRFKK -o ./
 ~~~
 
 Brief introduction for protein solvent accessibility prediction by DMVFL-RSA
