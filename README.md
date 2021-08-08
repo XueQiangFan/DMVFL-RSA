@@ -64,8 +64,7 @@ Here, you will see two configuration files.
   HHBLITS_DB = /data/commonuser/library/uniclust30_2018_08/uniclust30_2018_08
 ~~~
 
-## Run DMVFL-RSA? 
-
+## Run DMVFL-RSA 
 ### run: python main.py -P protein name -S protein sequence -o result path
 ~~~
     For example:
