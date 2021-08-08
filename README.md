@@ -20,7 +20,10 @@ Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View
 ~~~
   $ unzip DMVFL-RSA.zip  
   $ chmod -R 777 ./DMVFL-RSA
-  $ cd ./DMVFL-RSA/Util/
+  $ java -jar ./Util/FileUnion.jar ./save_model/ ./save_model.zip
+  $ rm -rf ./save_model
+  $ unzip ./save_model.zip
+  $ cd ./Util/
   $ chmod -R 777 ./database
   $ java -jar FileUnion.jar ./database/ ./database.zip
   $ rm -rf ./database
