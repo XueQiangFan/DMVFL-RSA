@@ -3,14 +3,17 @@ Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View
 
 ## Pre-requisite:
     - Linux system
-    - python3.7, pytorch, numpy
-    - HHblits, uniclust30_2018_08  (http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/)
-    - blast+, nr  (https://ftp.ncbi.nih.gov/blast/db/)
-    - PSIPRED VFORMAT (PSIPRED V3.2) (http://bioinfadmin.cs.ucl.ac.uk/downloads/psipred/)
+    - python3.7 
+    - pytorch(version 1.3.1) (https://pytorch.org/)
+    - HHblit (shttps://toolkit.tuebingen.mpg.de/tools/hhblits)
+    - uniclust30_2018_08 (http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/)
+    - blast-2.2.26 (https://blast.ncbi.nlm.nih.gov/Blast.cgi)
+    - nr(https://ftp.ncbi.nih.gov/blast/db/)
+    - PSIPRED(PSIPRED V3.2) (http://bioinfadmin.cs.ucl.ac.uk/downloads/psipred/)
 
 ## Installation:
 
-*Install and configure the softwares of Python3, Java, Pytorch, HHblits, uniclust30_2018_08, blast+, nr, ProtChain database, and PSIPRED in your Linux system. Please make sure that python3 includes the modules of 'os', 'math', 'numpy', 'configparser', 'numba', 'random', 'subprocess', 'sys', and 'shutil'. If any one modules does not exist, please using 'pip install XXXX' command install the python revelant module. Here, "XXXX" is one module name.
+*Install and configure the softwares of Python3, Java, Pytorch, HHblits, uniclust30_2018_08, blast-2.2.26, nr, ProtChain database, and PSIPRED in your Linux system. Please make sure that python3.7 includes the modules of 'os', 'math', 'numpy', 'configparser', 'numba', 'random', 'subprocess', 'sys', and 'shutil'. If any one modules does not exist, please using 'pip install xxx' command install the python revelant module. Here, "xxx" is one module name.
 
 *Download this repository at https://github.com/XueQiangFan/DMVFL-RSA. Then, uncompress it and run the following command lines on Linux System.
 
