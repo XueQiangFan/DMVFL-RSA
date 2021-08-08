@@ -36,7 +36,7 @@ Here, you will see two configuration files.
  The file of "Config.properties" should be set as follows:   
 - HHblits 
 - uniclust30_2018_08
-- blast+ 
+- blast-2.2.26
 - nr
 - PSIPRED
 - ProtChain   
@@ -65,7 +65,11 @@ Here, you will see two configuration files.
 
 ## Run DMVFL-RSA? 
 
-### run: python main.py -p protein name -S protein sequence -o result path
+### run: python main.py -P protein name -S protein sequence -o result path
+~~~
+    For example:
+    python main.py -P 1bfmB -S MELPIAPIGRIIKDAGAERVSDDARITLAKILEEMGRDIASEAIKLARHAGRKTIKAEDIELAVRRFKK -O ./
+~~~
 
 Brief introduction for protein solvent accessibility prediction by DMVFL-RSA
 
@@ -79,15 +83,15 @@ Step 3. generate one RPRSA profile for your protein sequence from TBP
 
 Step 4.  "protein name +.rsa" is the result file
 
-# The protein solvent accessibility result
+## The protein solvent accessibility result
 
 *The protein solvent accessibility result of each rsidue should be found in the outputted file, i.e., " protein name +.rsa". In each result file, where "NO" is the position of each residue in your protein, where "AA" is the name of each residue in your protein, where "RSA" is the predicted relative accessible surface area of each residue in your protein, and where "ASA" is the predicted accessible surface area of each residue in your protein.
 
-# Update History:
+## Update History:
 
 First release 2021-08-03
 
-# References
+## References
 
 [1] Xue-Qiang Fan, Jun Hu*, Ning-Xin Jia, Dong-Jun Yu*, and Gui-Jun Zhang*. Improved Protein Relative Solvent Accessibility Prediction using Deep Multi-View Feature Learning Framework. Analytical Biochemistry. sumitted.
 
