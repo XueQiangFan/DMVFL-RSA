@@ -10,7 +10,7 @@ import numpy as np
 from configparser import ConfigParser
 from Util.processing_pssm_msaTopsfm import Processing_PSSM_MSAToPSFM
 config = ConfigParser()
-config.read('SPRSA.config')
+config.read('DMVFL-RSA.config')
 
 HHBLITS_EXE = config.get('HHBLITS', 'HHBLITS_EXE')
 HHBLITS_DB = config.get('HHBLITS', 'HHBLITS_DB')
