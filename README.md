@@ -54,7 +54,7 @@ Here, you will see two configuration files.
 ~~~
 
 *Configure the following tools or databases in DMVFL-RSA.config  
-  The file of "Config.properties" should be set as follows:
+  The file of "DMVFL-RSA.config" should be set as follows:
 - HHblits
 -  uniclust30_2018_08
 ~~~
