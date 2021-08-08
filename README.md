@@ -41,7 +41,7 @@ Here, you will see two configuration files.
 - PSIPRED
 - ProtChain   
 ~~~
-   For example:  
+  For example:  
   # Generate PSSM PSS config path
   BLASTPGP_EXE_PATH=/data0/junh/software/blast-2.2.26/blastpgp
   BLASTPGP_DB_PATH=/data/commonuser/library/nr/nr
@@ -58,6 +58,7 @@ Here, you will see two configuration files.
 - HHblits
 -  uniclust30_2018_08
 ~~~
+  For example:  
   [HHBLITS]
   HHBLITS_EXE = hhblits
   HHBLITS_DB = /data/commonuser/library/uniclust30_2018_08/uniclust30_2018_08
