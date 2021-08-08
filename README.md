@@ -28,7 +28,7 @@ Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View
   $ java -jar FileUnion.jar ./database/ ./database.zip
   $ rm -rf ./database
   $ unzip ./database.zip 
-   $ cd ../
+  $ cd ../
 ~~~
   Here, you will see two configuration files 
 
