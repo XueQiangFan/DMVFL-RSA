@@ -18,26 +18,48 @@ Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View
 *Download this repository at https://github.com/XueQiangFan/DMVFL-RSA. Then, uncompress it and run the following command lines on Linux System.
 
 ~~~
-  $ tar zxvf DMVFL-RSA.tar.gz  
-  $ chmod -R 777 ./DMVFL-RSA  
-  $ cd ./DMVFL-RSA  
+  $ unzip DMVFL-RSA.zip  
+  $ chmod -R 777 ./DMVFL-RSA
+  $ cd ./DMVFL-RSA/Util/
+  $ chmod -R 777 ./database
+  $ java -jar FileUnion.jar ./database/ ./database.zip
+  $ rm -rf ./database
+  $ unzip ./database.zip 
+   $ cd ../
 ~~~
   Here, you will see two configuration files 
 
 *Configure the following tools or databases in Config.properties  
   The file of "Config.properties" should be set as follows:
-
-- HHblits, uniclust30_2018_08  (http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/)
-
-- blast+, nr  (https://ftp.ncbi.nih.gov/blast/db/)
-
-- PSIPRED VFORMAT (PSIPRED V3.2)
-
-- ProtChain databases   
-
-*Configure the following tools or databases in SPRSA.config  
+ - HHblits
+ - uniclust30_2018_08
+ - blast+ 
+ - nr
+ - PSIPRED
+ - ProtChain databases
+ For example:
+ ~~~
+  # Generate PSSM PSS config path
+  BLASTPGP_EXE_PATH=/data0/junh/software/blast-2.2.26/blastpgp
+  BLASTPGP_DB_PATH=/data/commonuser/library/nr/nr
+  PSIPRED321_FOLDER_DIR=/data0/junh/software/psipred321/
+  BLAST_BIN_DIR=/data0/junh/software/blast-2.2.26/
+  HHBLITS_EXE_PATH=hhblits
+  HHBLITS_DB_PATH=/data/commonuser/library/uniclust30_2018_08/uniclust30_2018_08
+  # Generate RPRSA config 
+  PROT_CHAIN_LIB_FOLDER_PATH=/data0/junh/stu/xueqiangf/SPRSA/Util/ProtChain
+ ~~~
+ 
+*Configure the following tools or databases in DMVFL-RSA.config  
   The file of "Config.properties" should be set as follows:
-- HHblits, uniclust30_2018_08  (http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/)
+- HHblits 
+- uniclust30_2018_08
+ For example:
+ ~~~
+   [HHBLITS]
+   HHBLITS_EXE = hhblits
+   HHBLITS_DB = /data/commonuser/library/uniclust30_2018_08/uniclust30_2018_08
+ ~~~
 
 ## Run DMVFL-RSA? 
 
