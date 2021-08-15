@@ -106,7 +106,7 @@ class GEN_HTML:
             info = '''    <tr >  <td style="width: 2%;">'''+index[i]+'''</td> <td style="width: 3%;">'''+base[i]+'''</td><td style="width: 3%;">'''+RSA[i]+'''</td><td style="width: 3%;">'''+ASA[i]+'''</td></tr>'''
             fw.write(info+"\n")
         
-        fw.write(result)
+        #fw.write(result)
         fw.write('''    </table>\n''')
         fw.write('''  </div>\n''')
         fw.write('''</td></tr>\n''')
