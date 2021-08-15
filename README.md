@@ -15,11 +15,10 @@ Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View
 
 *Install and configure the softwares of Python3, Java, Pytorch, HHblits, uniclust30_2018_08, blast+, nr, ProtChain database, and PSIPRED in your Linux system. Please make sure that python3 includes the modules of 'os', 'math', 'numpy', 'configparser', 'numba', 'random', 'subprocess', 'sys', and 'shutil'. If any one modules does not exist, please using 'pip install xxx' command install the python revelant module. Here, "xxx" is one module name.
 
-*Download this repository at https://github.com/XueQiangFan/DMVFL-RSA (It is strongly recommended to use the "wget -c https://github.com/XueQiangFan/DMVFL-RSA/archive/refs/heads/main.zip" command to download on the linux platform). Then, uncompress it and run the following command lines on Linux System.
-
+*Download this repository at https://github.com/XueQiangFan/DMVFL-RSA (It is strongly recommended to use the "wget https://github.com/XueQiangFan/DMVFL-RSA/archive/refs/heads/main.zip -c -O DMVFL-RSA.tar.gz" command to download on the linux System). Then, uncompress it and run the following command lines on Linux System.
 
 ~~~
-  $ jar xvf main.zip  
+  $ tar xzvf DMVFL-RSA.tar.gz  
   $ chmod -R 777 ./DMVFL-RSA
   $ cd ./DMVFL-RSA
   $ java -jar ./Util/FileUnion.jar ./save_model/ ./save_model.zip
