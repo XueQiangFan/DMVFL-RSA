@@ -17,7 +17,7 @@ HHBLITS_DB = config.get('HHBLITS', 'HHBLITS_DB')
 
 
 class FeaturesGeneration(object):
-    def __init__(self, pro_name: str, sequence: str, result_path: str):
+    def __init__(self, pro_name, sequence, result_path):
         seq_path = os.path.join(result_path, pro_name)
         with open(seq_path, "w") as f:
             f.write(">" + pro_name.strip() + "\n" + sequence.strip())
@@ -35,7 +35,7 @@ class FeaturesGeneration(object):
         if os.path.exists(self.PSSM_path) and os.path.exists(self.PSSM_path):
             pass
         else:
-            PSSM_PSS_cmd = "java -jar GeneratePSSM_PSS_PSA.jar " + self.result_path + " " + self.seq_path + " " + str(
+            PSSM_PSS_cmd = "java -jar /Util/GeneratePSSM_PSS_PSA.jar " + self.result_path + " " + self.seq_path + " " + str(
                 0) + " " + str(1)
             os.system(PSSM_PSS_cmd)
         return self.seq_path
@@ -59,8 +59,8 @@ class FeaturesGeneration(object):
             PSFM = MSAToPSFM.NumericMSAToPSFM(self.msa_path)
             np.savetxt(self.PSFM_path, PSFM, fmt='%.04f')
 
-    def Threading_based_PRSA(self, cutoff_threshold=0.3, iter_num=1):
+    def Threading_based_PRSA(self, cutoff_threshold=0.5, iter_num=1):
 
-        PRSA_cmd = "java -jar JPSFMThreader.jar " + self.pro_name + " " + self.seq + " " + str(
+        PRSA_cmd = "java -jar /Util/JPSFMThreader.jar " + self.pro_name + " " + self.seq + " " + str(
             cutoff_threshold) + " " + str(iter_num) + " " + self.PSFM_path + " " + self.PRSA_path
         os.system(PRSA_cmd)
