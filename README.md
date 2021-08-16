@@ -92,5 +92,5 @@ First release 2021-08-03
 
 ## References
 
-[1] Xue-Qiang Fan, Jun Hu*, Ning-Xin Jia, Dong-Jun Yu*, and Gui-Jun Zhang*. Improved Protein Relative Solvent Accessibility Prediction using Deep Multi-View Feature Learning Framework. Analytical Biochemistry. sumitted.
+[1] Xue-Qiang Fan, Jun Hu*, Ning-Xin Jia, Dong-Jun Yu*, and Gui-Jun Zhang*. Improved Protein Relative Solvent Accessibility Prediction Using Deep Multi-View Feature Learning Framework. Analytical Biochemistry. sumitted.
 
