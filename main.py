@@ -12,7 +12,7 @@ from Util.feature_extraction import PSSMPSFMPSSPRSAGetWindowPadheadfoot
 from BiLSTM_SE_Net import LSTMMergeSENet
 from Util.processing_pssm_msaTopsfm import Processing_PSSM_MSAToPSFM
 from Util.WriteFile import appendWrite
-from Util.GEN_HTML import GEN_HTML
+#from Util.GEN_HTML import GEN_HTML
 #device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 from Util.feature_generation import FeaturesGeneration
 import warnings
