@@ -84,8 +84,8 @@ def main():
     features_generation.PSFM_generation()
     features_generation.Threading_based_PRSA()
     tester(args.pro_name, args.result_path)
-    gan_html = GEN_HTML(args.pro_name, args.result_path)
-    gan_html.generate_html()
+    #gan_html = GEN_HTML(args.pro_name, args.result_path)
+    #gan_html.generate_html()
 
 if __name__ == '__main__':
     main()
